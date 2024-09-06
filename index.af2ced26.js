@@ -1,0 +1,2 @@
+for(var e=document.getElementsByTagName("ul")[0],t=e.getElementsByTagName("li"),a=0;a<t.length;a++){var n=t[a],l=document.createElement("span");n.insertBefore(l,n.firstChild),l.appendChild(l.nextSibling)}e.onclick=function(e){var t=e.target;if("SPAN"===t.tagName){var a=t.parentNode.getElementsByTagName("ul")[0];a&&(a.style.display=a.style.display?"":"none")}};
+//# sourceMappingURL=index.af2ced26.js.map
